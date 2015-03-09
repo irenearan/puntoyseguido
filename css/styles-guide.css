@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	background: #ddd;
+
+}
+
+.wrapper{
+
+	max-width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding:1rem;
+}
+
+.sg-main-title{
+
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	color:#ddd;
+	padding-bottom: 20px;
+}
+
+.sg-section-title{
+
+
+}
+

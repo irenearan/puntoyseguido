@@ -864,51 +864,27 @@ ENCUENTRA TU CURSO
 AYUDA A UN CREATIVO
 -----------*/
 
-@media all and (max-width:1000px){
+@media all and (min-width:1000px){
 
-    .anuncio1,
-    .anuncio2,
-    .anuncio3{
 
-        width:30%;
-    
-        
-    }
-    .anuncio4{
-        width: 100%;
-    }
 }
-@media all and (max-width:700px){
+@media all and (min-width:700px){
 
-    .anuncio1,
-    .anuncio2{
+    .col-3,
+    .col-xs-12{
 
         
-        width:50%;
-    
+        width:100%; 
         
-    }
-    .anuncio3,
-    .anuncio4{
-
-        width: 100%;
     }
     
 
 }
 
-@media all and (max-width:500px){
+@media all and (min-width:500px){
 
-    .anuncio1,
-    .anuncio2,
-    .anuncio3,
-    .anuncio4{
-
-        width:100%;
-        float:none;
-    }
+  
 }
-
 
 .tituloencabezado {
     clear: both;
