@@ -667,15 +667,22 @@ HOME
 .contenidotop {
 	margin: 0 auto;
 	width: 100%;
-	top:200px;
+	top:150px;
 	position:absolute;
 }
 
-.textotop {
+.textotop-1 {
 	text-align: center;
 	padding-bottom: 90px;
 	width: 50%;
 	margin: 0 auto;
+}
+
+.textotop-2 {
+    text-align: center;
+    padding-bottom: 90px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 h1.titulo {
@@ -757,7 +764,6 @@ section.minibox {
 	padding: 10px;
 	margin-top: 20px;
 	margin-bottom: 100px;
-    background-color: red;
 }
 
 #img2 {
@@ -771,7 +777,7 @@ section.minibox {
 
 .info {
 	margin: 0 auto;
-	max-width: 1024px;
+	max-width: ;
 }
 
 /*-----------
