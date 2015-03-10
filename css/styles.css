@@ -40,7 +40,11 @@ h1 {
 	 font-family: "Dosis";
 	 margin: 0px 0px 10px 0px;
 	 text-transform: uppercase;
-    color:#1BA8A6;
+     color:#1BA8A6;
+}
+
+h1.titulo-seccion-home {
+    color: white;
 }
 
 h2 {
@@ -74,13 +78,16 @@ h3 {
 }
 
 h4 {
-	 font-size: 24px;
+	font-size: 24px;
     margin: 0px;
 }
 
-h4.tituloconsejos{
-
+h4.tituloconsejos {
     text-align: center;
+}
+
+h4.subtitulo-home {
+    color: white;
 }
 
 h5 {
@@ -207,6 +214,7 @@ button a{
 button a.ayuda{
     color:#f15c22;
 }
+
 p.ayudame{
 
 	font-weight: 400;
@@ -667,7 +675,7 @@ HOME
 .contenidotop {
 	margin: 0 auto;
 	width: 100%;
-	top:150px;
+	top:100px;
 	position:absolute;
 }
 
@@ -676,6 +684,7 @@ HOME
 	padding-bottom: 90px;
 	width: 50%;
 	margin: 0 auto;
+    float: left;
 }
 
 .textotop-2 {
@@ -683,6 +692,7 @@ HOME
     padding-bottom: 90px;
     width: 50%;
     margin: 0 auto;
+    float: right;
 }
 
 h1.titulo {
