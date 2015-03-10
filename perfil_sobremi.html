@@ -2,37 +2,34 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Perfil Sobre mi</title>
-    <link rel="stylesheet" href="css/perfil.css">
-    <link rel="stylesheet" href="css/anuncios.css">
-    <link rel="stylesheet" href="css/publicar.css">
-    <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="css/pie.css">
-    <link href="css/popup.css" rel="stylesheet" type="text/css">
-    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <title>Perfil</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <header>
+<header>
+    <div class="contenedorheader">
         <div id="imglogo">
-           <a href="index2.html">
-            <img src="imagenes/logoytexto.png" alt="Logo" style="width:156px"></a>
+            <a href="index.html"><img class="logo" src="imagenes/logoytexto.png" alt="Logo"></a>
+         </div>
+    <div id="menu">
+        <div class="menuizquierda">
+            <ul>
+                <li class="textomenu"><a href="anunciosprofes.html">ENCUENTRA TU CURSO</a></li>
+                <li class="textomenu"><a href="anuncios.html">BUSCA TU ALUMNO</a></li>
+                <li class="textomenu"><a href="funciona.html">¿CÓMO FUNCIONA?</a></li>
+            </ul>
         </div>
-        <div id="menu">
-            <div class="menuizquierda">
-                <ul>
-                    <li class="encuentra"><a href="anunciosprofes2.html" style="text-decoration:none; color:black">ENCUENTRA TU CURSO</li>
-                    <li class="busca"><a href="anuncios2.html" style="text-decoration:none; color:black">AYUDA A UN CREATIVO</a></li>
-                </ul>
-            </div>
-            <div class="menuderecha">
-                <ul>
-                    <li class="cursos">Mi perfil</li>
-                </ul>
-            </div>
+        <div class="menuderecha">
+            <ul>
+                 <li class="login"><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
         </div>
-    </header>
+    </div>
+    </div>
+</header>
    <div id="publicar" class="masc">
     <div class="popupbox popupbox2 movedown movedown3">
         <a href="#close" title="close" class="close">X</a>
@@ -127,38 +124,44 @@
     </div>
     </div>
 </div>
-
-
-    <div class="parteizquierda">
+<div class="parteizquierda">
         <div class="fotoperfil">
-            <img src="imagenes/fotopepe.jpg" width="110px">
-            <h2 class="subefoto">
+            <img class="imgperfil" src="imagenes/circuloperfil.svg">
+            <h6 class="modificar">
                 <a href="#">
-                    SUBE TU FOTO
+                    Sube tu foto
                 </a>
-            </h2>
-            <p class="tamanomaximo">
+            </h6>
+            <h6 class="tamanomaximo">
                 34 x 34 píxeles. Máximo 30MB
-            </p>
+            </h6>
         </div>
-        <div class="informacionpersona">
-            <h3 class="nombrepersona">
+        <div class="totalinformacionpersona">
+            <h6 class="modificar">
+               <a href="#">
+                <u>modificar</u>
+                </a>
+            </h6>
+            <h4>
                 MARTA PÉREZ
-            </h3>
-            <p class="infoperfil">
-                <strong>Professión:</strong> Estudiante
-                <strong>Categoría:</strong> Diseño Gráfico
-                <strong>Edad:</strong> 22 años
-            </p>
+            </h4>
+            <div class="infoperfil">
+                 <p class="infopersona"><strong>Correo:</strong> mperez@gmail.com</p>
+                <p class="infopersona"><strong>Status:</strong> Estudiante</p>
+                <p class="infopersona"><strong>Categoría:</strong> Diseñadora Gráfica</p>
+                <p class="infopersona"><strong>Edad:</strong> 22 años</p>
+            </div>
         </div>
-        <div class="contactame">
-            <a href="#publicar" style="text-decoration:none; color:white">PUBLICA TU CURSO</a>
+        <div class="botonesperfil">
+        <div class="boton">
+            <button class="publicaranuncios"><a href="#publicar">PUBLICA TU CURSO</a></button>
         </div>
         <p class="infoutil">
-            !Aquí podrás publicar la clase que necesitas!
+            ¡Aquí podrás publicar la clase que necesitas!
         </p>
-        <div class="ayudame">
-            <a href="#publicar" style="text-decoration:none; color:#f15c22">AYÚDAME</a>
+        <div class="boton">
+            <button class="publicaranuncios2"><a class="ayuda" href="#publicaralumno">PUBLICA TU DUDA</a></button>
+        </div>
         </div>
     </div>
     <div class="partederecha">
@@ -171,21 +174,34 @@
             </ul>
         </div>
         <div>
-            <h3 class="tituloporta">
-                Mi perfil
-            </h3>
+        <article class="contenidoperfil">
+            <div class="portafolio">
+                <img class="iconosperfil" src="imagenes/iconoperfil.svg">
+                <div class="contenido">
+                <div class="tituloperfil">
+                <h5>
+                Mi Perfil
+                </h5>
+                </div>
             <p class="descripcionporta">
                 Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per.
             </p>
-            <p class="modificar">
-
-            </p>
+            <h6 class="modificar">
+                <a href="#">
+                <u>modificar</u>
+                </a>
+            </h6>
         </div>
 
-        <div>
-            <h3 class="tituloporta2">
+        <article class="contenidoperfil">
+            <div class="portafolio">
+                <img class="iconosperfil" src="imagenes/iconoperfil.svg">
+                <div class="contenido">
+                <div class="tituloperfil">
+                <h5>
                 Disponibilidad
-            </h3>
+                </h5>
+                </div>
             <div class="cuadradodisponibilidad cf">
                 <div class="diashorizontal cf">
                     <p class="titulodias">

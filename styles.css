@@ -47,14 +47,11 @@ h2 {
 	font-size: 48px;
     margin: 0px;
     font-weight: 400;
+
 	}
 
 h2.formulario{
     text-align: center;
-}
-
-h2.encontraras{
-    color:#f15c22;
 }
 
 h3 {
@@ -63,8 +60,8 @@ h3 {
 	 font-weight: 400;
 	 font-style: normal;
 }
+.quieres{
 
-.quieres {
     color:white;
 }
 
@@ -710,9 +707,14 @@ p.subtitulo{
 }
 
 .box2{
+
+
 	clear: both;
 }
+h2.encontraras{
 
+	color:#f15c22;
+}
 p.subtituloencontrar{
 
 	padding-left: 450px;
@@ -861,83 +863,24 @@ ENCUENTRA TU CURSO
 AYUDA A UN CREATIVO
 -----------*/
 
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1024px;
-  }
-}
+@media all and (min-width:1000px){
 
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-.col-xs-12 {
-  width: 100%;
-}
 
-<<<<<<< HEAD
-        width:30%;
+}
+@media all and (min-width:700px){
 
+    .col-3,
+    .col-xs-12{
+
+
+        width:100%;
 
     }
-    .anuncio4{
-        width: 100%;
-    }
-=======
-.col-xs-6 {
-  width: 50%;
->>>>>>> 05bd638d08ac97acf8dd6d7d332efca4b27444da
-}
+
 
 }
 
-<<<<<<< HEAD
-
-        width:50%;
-
-
-    }
-    .anuncio3,
-    .anuncio4{
-
-        width: 100%;
-    }
-
-=======
-@media (min-width: 992px) {
-
-.col-xs-12 {
-  width: 100%;
-}
-
-.col-xs-6 {
-  width: 70%;
-}
->>>>>>> 05bd638d08ac97acf8dd6d7d332efca4b27444da
-
-}
-
-
-
-@media (min-width: 1200px) {
-.col-xs-12 {
-  width: 100%;
-}
-
-.col-xs-6 {
-  width: 100%;
-}
+@media all and (min-width:500px){
 
 
 }

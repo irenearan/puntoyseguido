@@ -1,0 +1,28 @@
+.sg-style-guide{
+	margin: 0;
+	background: #ddd;
+}
+
+.sg-wrapper{
+	max-width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding:1rem;
+}
+
+.sg-main-title{
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 2rem;
+	color:#ddd;
+	padding-bottom: 20px;
+}
+
+.sg-title-style-guide{
+	font-family: "Lato", sans-serif;
+	font-size: 1rem;
+	color:#ddd;
+	padding-bottom: 20px;
+
+
+}
