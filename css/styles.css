@@ -47,11 +47,14 @@ h2 {
 	font-size: 48px;
     margin: 0px;
     font-weight: 400;
-
 	}
 
 h2.formulario{
     text-align: center;
+}
+
+h2.encontraras{
+    color:#f15c22;
 }
 
 h3 {
@@ -60,8 +63,8 @@ h3 {
 	 font-weight: 400;
 	 font-style: normal;
 }
-.quieres{
 
+.quieres {
     color:white;
 }
 
@@ -95,7 +98,7 @@ h6.modificar a{
     color: #f15c22;
     text-decoration: none;
     text-align: left;
-    
+
 }
 
 h6.tamanomaximo {
@@ -107,7 +110,7 @@ h6.tamanomaximo {
 .terminos{
 
     font-size: 12px;
-    
+
 }
 .terminos a{
 
@@ -117,7 +120,7 @@ h6.tamanomaximo {
 .light {
 	font-weight: lighter;
 	color:#00A6A5;
-   
+
     margin: 0;
 }
 .textpopup{
@@ -148,7 +151,7 @@ p.categoriasmenu {
 
     float: none;
     margin: 0px;
-   
+
 }
 .centrado{
 
@@ -160,7 +163,7 @@ p.categoriasmenu {
 }
 .infoutil{
 
-  
+
 
 }
 
@@ -172,7 +175,7 @@ p.categoriasmenu {
 
 
 button {
-	
+
 	font-size: 18px;
 	font-weight: bolder;
     border: none;
@@ -206,7 +209,7 @@ p.ayudame{
 }
 p.ayudame a{
         color: white;
-    
+
 
 }
 p.textopie{
@@ -276,7 +279,7 @@ header{
 .menuizquierda {
 	width: 650px;
     float: left;
-   
+
 }
 
 .menuderecha {
@@ -292,7 +295,7 @@ li.textomenu a{
     padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-  
+
 }
 li.textomenu a:hover{
     color:#f15c22;
@@ -475,7 +478,7 @@ popup publicar
 .contenidopublicar{
     width: 100%;
     margin-top: 40px;
-   
+
 
 
 }
@@ -496,13 +499,13 @@ margin: 0 auto;
 }
 .imgproceso{
     margin: 0 auto;
-   
+
 }
 .proceso{
     width: 80%;
     width: 100%;
 
-   
+
 }
 .cajaformulario{
     padding-left: 10px;
@@ -579,7 +582,7 @@ margin: 0 auto;
 
     padding-top: 40px;
     padding-bottom: 5px;
-    
+
 
 }
 
@@ -641,7 +644,7 @@ HOME
 .imgtop{
 	margin: 0 auto;
 	margin-top: 50px;
-	
+
 
 
 }
@@ -708,14 +711,9 @@ p.subtitulo{
 }
 
 .box2{
-
-
 	clear: both;
 }
-h2.encontraras{
 
-	color:#f15c22;
-}
 p.subtituloencontrar{
 
 	padding-left: 450px;
@@ -783,7 +781,7 @@ ENCUENTRA TU CURSO
     margin:0 auto;
     position: relative;
     height: 250px;
-   
+
 }
 .munecobusqueda2 {
     position: absolute;
@@ -796,7 +794,7 @@ ENCUENTRA TU CURSO
 
    float: left;
     margin-top:80px;
-   
+
 }
 .imgcurso{
 
@@ -853,7 +851,7 @@ ENCUENTRA TU CURSO
     left: 24px;
     top:-4px;
     position: absolute;
-   
+
 }
 
 
@@ -871,8 +869,8 @@ AYUDA A UN CREATIVO
     .anuncio3{
 
         width:30%;
-    
-        
+
+
     }
     .anuncio4{
         width: 100%;
@@ -883,17 +881,17 @@ AYUDA A UN CREATIVO
     .anuncio1,
     .anuncio2{
 
-        
+
         width:50%;
-    
-        
+
+
     }
     .anuncio3,
     .anuncio4{
 
         width: 100%;
     }
-    
+
 
 }
 
@@ -915,7 +913,7 @@ AYUDA A UN CREATIVO
     width: 100%;
     padding-bottom: 10px;
     border-bottom: 1px solid #404041;
-     
+
 
 }
 .contenidotitulo{
@@ -925,7 +923,7 @@ AYUDA A UN CREATIVO
      padding-top: 80px;
      margin-left: 400px;
 
-     
+
 
 }
 .munecobusqueda {
@@ -959,7 +957,7 @@ AYUDA A UN CREATIVO
     width: 17%;
     margin-top: 40px;
     clear: both;
-    
+
 
 }
 .categorias{
@@ -971,13 +969,13 @@ AYUDA A UN CREATIVO
     margin-top: 20px;
 }
 .iconoscat {
-  
-    
+
+
 }
 img.icononaranja{
     float:left;
     width: 10%;
-    margin-top: 4px; 
+    margin-top: 4px;
     margin-right: 7px;
 }
 
@@ -1020,7 +1018,7 @@ img.icononaranja{
     width: 100%;
     margin-bottom: 50px;
    float: left;
-    
+
 
 }
 
@@ -1049,7 +1047,7 @@ img.icononaranja{
 .textocuadrado {
     padding: 20px 20px 20px 20px;
     text-align: center;
-    
+
 }
 .masinfo{
 
@@ -1061,7 +1059,7 @@ img.icononaranja{
 .iconoizquierda{
 
     float: left;
-    width: 40%; 
+    width: 40%;
 }
 
 .iconoderecha{
@@ -1069,31 +1067,31 @@ img.icononaranja{
     float: left;
     width: 40%;
     margin-left: 20px;
-   
+
 
 }
 .icono {
     float: left;
     width: 20%;
-    
+
 }
 .icono2{
     float: left;
-    
+
 
 }
 .social{
 
-    
+
     width: 50%;
     float: left;
-    
+
 }
 .textoicono{
 
     float: left;
     width:50%;
-  
+
 
 
 
@@ -1115,7 +1113,7 @@ img.icononaranja{
     left:0;
     margin:36px auto;
     right:0;
-    
+
 }
 .botonayuda:hover{
 
@@ -1125,12 +1123,12 @@ img.icononaranja{
     display: inline-block;
     margin-left: 5px;
     width: 25%;
-    
+
 }
 .imgiconomail{
 
     width: 100%;
-   
+
 
 }
 
@@ -1162,7 +1160,7 @@ PERFIL
 
     padding: 0px;
 
- 
+
 }
 .botonesperfil{
 
@@ -1235,7 +1233,7 @@ li.pestanyas:hover {
     float: left;
     margin-right: 10px;
     clear: both;
-    
+
 }
 .contenido{
     width: 80%;
@@ -1243,11 +1241,11 @@ li.pestanyas:hover {
 
 }
 .redeshorizontal {
-    
+
 }
 .iconored{
 
- 
+
     float: left;
 }
 .url{
@@ -1270,7 +1268,7 @@ li.pestanyas:hover {
 
 }
 .fotostrabajos{
-   
+
     margin-bottom: 80px;
     margin-top:20px;
 }
@@ -1351,14 +1349,14 @@ span{
     width:100%;
     margin: 0 auto;
     padding-top: 20px;
-   
+
 
 }
 
 .caja{
     float: left;
     width: 180px;
-  
+
 }
 .botonunete{
 
