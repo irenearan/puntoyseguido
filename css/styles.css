@@ -55,6 +55,11 @@ h2.formulario{
 
 h2.encontraras{
     color:#f15c22;
+    text-align: center;
+}
+
+h2.titulo-funcionamiento {
+    text-align: center;
 }
 
 h3 {
@@ -135,23 +140,27 @@ p {
 	text-align: left;
 	color:#808284;
 }
+
+p.texto-encontraras {
+    text-align: center;
+}
+
 p.categoriasmenu {
     float: left;
     padding-right: 10px;
     line-height: 30px;
     margin: 0px;
-
 }
-.categoriasmenu:hover{
 
+.categoriasmenu:hover {
     color:#f15c22;
 }
-.categoriasmenu-2{
 
+.categoriasmenu-2{
     float: none;
     margin: 0px;
-
 }
+
 .centrado{
 
     text-align: center;
@@ -640,27 +649,26 @@ popup contactar
 HOME
 -------------*/
 
-.imgtop{
+.imgtop {
 	margin: 0 auto;
 	margin-top: 50px;
-
-
-
 }
+
 /*.fondoimgtop{
 	background-image: url("../imagenes/fondohome_02.png") repeat-x;
 	border: 1px solid black;
 	width: 100%;
 }*/
-.fondoimgtop{
+
+.fondoimgtop {
 	position: relative;
 }
-.contenidotop{
+
+.contenidotop {
 	margin: 0 auto;
 	width: 100%;
 	top:200px;
 	position:absolute;
-
 }
 
 .textotop {
@@ -668,11 +676,9 @@ HOME
 	padding-bottom: 90px;
 	width: 50%;
 	margin: 0 auto;
-
-
 }
 
-h1.titulo{
+h1.titulo {
 	font-family: "BebasNeue";
 	font-size: 100px;
 	line-height: 1;
@@ -699,7 +705,7 @@ h2.titulo2 {
 	padding: 0px;
 }
 
-p.subtitulo{
+p.subtitulo {
 	margin-top: 0px;
 	color: #404041;
 	width: 50%;
@@ -709,20 +715,17 @@ p.subtitulo{
 	margin-top: -10px;
 }
 
-.box2{
+.box2 {
 	clear: both;
 }
 
-p.subtituloencontrar{
-
+p.subtituloencontrar {
 	padding-left: 450px;
 	padding-right: 450px;
 	font-size:16px;
 }
 
-
-.botonanuncios{
-
+.botonanuncios {
 	background-color: #f15c22;
 	width: 200px;
 	text-align: center;
@@ -732,44 +735,43 @@ p.subtituloencontrar{
 	padding-bottom: 10px;
 	margin: 0 auto;
 	border-radius: 8px;
-
-
 }
-.botonanuncios:hover{
+
+.botonanuncios:hover {
 	background-color:#404041;
-
 }
 
-.botonanuncios-2{
-
+.botonanuncios-2 {
 	margin-top: 30px;
 }
 
-p.textoveranuncios{
+p.textoveranuncios {
 	color:white;
 	font-size: 18px;
 	padding: 0px;
-
 }
 
-section.minibox{
-	width: 400px;
+section.minibox {
+	width: 390px;
 	float:left;
 	padding: 10px;
 	margin-top: 20px;
 	margin-bottom: 100px;
+    background-color: red;
 }
-#img2{
 
+#img2 {
 	text-align: center;
 }
-.article2{
-	margin-top: 100px;
 
+.article2 {
+	margin-top: 100px;
+    width: 100%;
 }
-.info{
+
+.info {
 	margin: 0 auto;
-	width: 1300px;
+	max-width: 1024px;
 }
 
 /*-----------
