@@ -40,36 +40,17 @@ h1 {
 	 font-family: "Dosis";
 	 margin: 0px 0px 10px 0px;
 	 text-transform: uppercase;
-     color:#1BA8A6;
-}
-
-h1.titulo-seccion-home {
-    color: white;
-}
-
-h1.titulo-ampliar-curso {
-    color: #404041;
-    max-width: 500px;
-    font-weight: 500;
-    margin-top: 50px;
+    color:#1BA8A6;
 }
 
 h2 {
 	font-size: 48px;
     margin: 0px;
     font-weight: 400;
+
 	}
 
 h2.formulario{
-    text-align: center;
-}
-
-h2.encontraras{
-    color:#f15c22;
-    text-align: center;
-}
-
-h2.titulo-funcionamiento {
     text-align: center;
 }
 
@@ -79,32 +60,19 @@ h3 {
 	 font-weight: 400;
 	 font-style: normal;
 }
-
-
-.texto-curso{
-
-text-align: center;
-color: #1BA8A6;
-text-transform: uppercase;
-margin: 0;
-
-}
 .quieres{
 
     color:white;
 }
 
 h4 {
-	font-size: 24px;
+	 font-size: 24px;
     margin: 0px;
 }
 
-h4.tituloconsejos {
-    text-align: center;
-}
+h4.tituloconsejos{
 
-h4.subtitulo-home {
-    color: white;
+    text-align: center;
 }
 
 h5 {
@@ -113,20 +81,7 @@ h5 {
      margin: 0px;
 
 }
-.subnocursos{
 
-    text-align: center;
-}
-.leerconsejos a{
-
-    text-decoration: none;
-    color:#404041;
-}
-
-.leerconsejos2{
-
-    text-align: center;
-}
 h6 {
 	 font-size: 14px;
      margin: 0px;
@@ -134,7 +89,6 @@ h6 {
 
 h6.modificar{
     margin: 10px 10px 10px 0px;
-    clear: both;
 }
 
 h6.modificar a{
@@ -172,38 +126,29 @@ h6.tamanomaximo {
     font-size: 12px;
     text-decoration: underline;
 }
-.textpopup a{
-
-    color:#404041;
-
-}
 
 p {
 	font-size: 16px;
 	text-align: left;
 	color:#808284;
 }
-
-p.texto-encontraras {
-    text-align: center;
-}
-
 p.categoriasmenu {
     float: left;
     padding-right: 10px;
     line-height: 30px;
     margin: 0px;
-}
 
-.categoriasmenu:hover {
+}
+.categoriasmenu:hover{
+
     color:#f15c22;
 }
-
 .categoriasmenu-2{
+
     float: none;
     margin: 0px;
-}
 
+}
 .centrado{
 
     text-align: center;
@@ -226,7 +171,8 @@ p.categoriasmenu {
 
 
 button {
-    font-size: 18px;
+
+	font-size: 18px;
 	font-weight: bolder;
     border: none;
     margin: 0 auto;
@@ -237,38 +183,38 @@ button {
     padding-bottom: 10px;
     border-radius: 8px;
 }
+button:hover{
 
-button:hover {
     background-color:#404041;
 }
 
-button a {
+button a{
     color:white;
 }
 
-button a.ayuda {
+button a.ayuda{
     color:#f15c22;
 }
+p.ayudame{
 
-p.ayudame {
 	font-weight: 400;
     display: inline-block;
     margin-top: 5px;
     width: 30%;
-}
 
-p.ayudame a {
+}
+p.ayudame a{
         color: white;
-}
 
-p.textopie {
+
+}
+p.textopie{
     text-align: center;
     padding:10px;
     color:white;
     font-size: 10px;
     margin: 0px;
 }
-
 p.derechos{
     font-size: 10px;
     clear: both;
@@ -285,7 +231,7 @@ p.textoarticle3{
 
 }
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -446,7 +392,7 @@ popup login-registro
 .popupbox3{
 
 	top: 60px;
-
+    width: 50%;
 
 }
 .formulario{
@@ -533,7 +479,8 @@ popup publicar
 
 }
 .cajainstrucciones {
-
+    width: 40%;
+    float: left;
     margin-left: 60px;
 
 
@@ -551,7 +498,7 @@ margin: 0 auto;
 
 }
 .proceso{
-
+    width: 80%;
     width: 100%;
 
 
@@ -690,45 +637,39 @@ popup contactar
 HOME
 -------------*/
 
-.imgtop {
+.imgtop{
 	margin: 0 auto;
 	margin-top: 50px;
-}
 
+
+
+}
 /*.fondoimgtop{
 	background-image: url("../imagenes/fondohome_02.png") repeat-x;
 	border: 1px solid black;
 	width: 100%;
 }*/
-
-.fondoimgtop {
+.fondoimgtop{
 	position: relative;
 }
-
-.contenidotop {
+.contenidotop{
 	margin: 0 auto;
 	width: 100%;
-	top:100px;
+	top:200px;
 	position:absolute;
+
 }
 
-.textotop-1 {
+.textotop {
 	text-align: center;
 	padding-bottom: 90px;
 	width: 50%;
 	margin: 0 auto;
-    float: left;
+
+
 }
 
-.textotop-2 {
-    text-align: center;
-    padding-bottom: 90px;
-    width: 50%;
-    margin: 0 auto;
-    float: right;
-}
-
-h1.titulo {
+h1.titulo{
 	font-family: "BebasNeue";
 	font-size: 100px;
 	line-height: 1;
@@ -755,7 +696,7 @@ h2.titulo2 {
 	padding: 0px;
 }
 
-p.subtitulo {
+p.subtitulo{
 	margin-top: 0px;
 	color: #404041;
 	width: 50%;
@@ -765,17 +706,25 @@ p.subtitulo {
 	margin-top: -10px;
 }
 
-.box2 {
+.box2{
+
+
 	clear: both;
 }
+h2.encontraras{
 
-p.subtituloencontrar {
+	color:#f15c22;
+}
+p.subtituloencontrar{
+
 	padding-left: 450px;
 	padding-right: 450px;
 	font-size:16px;
 }
 
-.botonanuncios {
+
+.botonanuncios{
+
 	background-color: #f15c22;
 	width: 200px;
 	text-align: center;
@@ -785,47 +734,44 @@ p.subtituloencontrar {
 	padding-bottom: 10px;
 	margin: 0 auto;
 	border-radius: 8px;
-}
 
-.botonanuncios:hover {
+
+}
+.botonanuncios:hover{
 	background-color:#404041;
+
 }
 
-.botonanuncios-2 {
+.botonanuncios-2{
+
 	margin-top: 30px;
 }
 
-p.textoveranuncios {
+p.textoveranuncios{
 	color:white;
 	font-size: 18px;
 	padding: 0px;
+
 }
 
-section.minibox {
-	width: 30%;
+section.minibox{
+	width: 400px;
 	float:left;
 	padding: 10px;
 	margin-top: 20px;
 	margin-bottom: 100px;
-    margin-left: 30px;
 }
+#img2{
 
-#img2 {
 	text-align: center;
 }
-
-.article2 {
+.article2{
 	margin-top: 100px;
-    width: 100%;
-}
 
-.info {
+}
+.info{
 	margin: 0 auto;
-	max-width: 90%;
-}
-
-.boton-centrado {
-    text-align: center;
+	width: 1300px;
 }
 
 /*-----------
@@ -835,7 +781,7 @@ ENCUENTRA TU CURSO
 
     margin:0 auto;
     position: relative;
-    height: 180px;
+    height: 250px;
 
 }
 .munecobusqueda2 {
@@ -844,7 +790,6 @@ ENCUENTRA TU CURSO
     top:93px;
 
 }
-
 
 .boton2{
 
@@ -918,63 +863,24 @@ ENCUENTRA TU CURSO
 AYUDA A UN CREATIVO
 -----------*/
 
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1024px;
-  }
-}
-
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-.col-xs-12 {
-  width: 100%;
-}
+@media all and (min-width:1000px){
 
 
-.col-xs-6 {
-  width: 50%;
-
 }
+@media all and (min-width:700px){
 
-}
+    .col-3,
+    .col-xs-12{
 
 
-@media (min-width: 992px) {
+        width:100%;
 
-.col-xs-12 {
-  width: 100%;
-}
-
-.col-xs-6 {
-  width: 70%;
-}
+    }
 
 
 }
 
-
-
-@media (min-width: 1200px) {
-.col-xs-12 {
-  width: 100%;
-}
-
-.col-xs-6 {
-  width: 100%;
-}
+@media all and (min-width:500px){
 
 
 }
@@ -1136,7 +1042,7 @@ img.icononaranja{
 .iconoderecha{
 
     float: left;
-    width: 50%;
+    width: 40%;
     margin-left: 20px;
 
 
@@ -1148,14 +1054,13 @@ img.icononaranja{
 }
 .icono2{
     float: left;
-     width: 100%;
 
 
 }
 .social{
 
 
-    width: 70%;
+    width: 50%;
     float: left;
 
 }
@@ -1239,10 +1144,6 @@ PERFIL
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.boton{
-
-    margin-top: 20px;
-}
 .publicaranuncios2 {
     background-color: white;
     color: #f15c22;
@@ -1292,9 +1193,6 @@ li.pestanyas {
 
 .pestanyas a{
     color:white;
-}
-.pestanyas a:hover{
-    color: #54c4c7;
 }
 
 li.pestanyas:hover {
@@ -1373,91 +1271,6 @@ li.pestanyas:hover {
 width: 90%;
 
 }
-
-/*-------
-
-PERFIL-CURSOS
-
---------*/
-
-.nocursossuadrado{
-
-    border: 1px solid #54c4c7;
-    width: 90%;
-    margin-bottom: 80px;
-    margin-top: 100px;
-
-}
-
-.contenidonocursos{
-
-    position: relative;
-    margin-top:30px;
-    margin-bottom: 30px;
-}
-
-.personaje{
-
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top:-155px;
-    width: 30%;
-}
-
-.boton3{
-
-width: 40%;
-margin: 0 auto;
-padding-top:30px;
-}
-
-/*-------
-
-PERFIL-SOBRE MI
-
---------*/
-.cuadradodisponibilidad{
-
-
-}
-.programasinfo{
-margin-bottom: 40px;
-margin-top: 30px;
-
-}
-.totalprogramas{
-    margin-top: 10px;
-}
-.parteizquierdapro{
-
-    float: left;
-    width: 40%
-}
-
-.partederechapro{
-
-    float: left;
-    width: 40%;
-    margin-left: 20px;
-}
-
-.ladotitulo{
-
-}
-form.turnos {
-    float: right;
-    margin-top: -15px;
-
-}
-
-.diashorizontal {
-    width: 350px;
-}
-
-
-
 /*---------
 pie
 ---------*/
@@ -1543,3 +1356,5 @@ footer{
     background-color:#231F20;
     clear: both;
 }
+
+

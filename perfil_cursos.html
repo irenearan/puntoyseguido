@@ -3,36 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Perfil Cursos</title>
-    <link rel="stylesheet" href="css/perfil.css">
-    <link rel="stylesheet" href="css/anuncios.css">
-    <link rel="stylesheet" href="css/publicar.css">
-    <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="css/pie.css">
-    <link href="css/popup.css" rel="stylesheet" type="text/css">
-    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <header>
+    <div class="contenedorheader">
         <div id="imglogo">
-           <a href="index2.html">
-            <img src="imagenes/logoytexto.png" alt="Logo" style="width:156px"></a>
+            <a href="index.html"><img class="logo" src="imagenes/logoytexto.png" alt="Logo"></a>
+         </div>
+    <div id="menu">
+        <div class="menuizquierda">
+            <ul>
+                <li class="textomenu"><a href="anunciosprofes.html">ENCUENTRA TU CURSO</a></li>
+                <li class="textomenu"><a href="anuncios.html">BUSCA TU ALUMNO</a></li>
+                <li class="textomenu"><a href="funciona.html">¿CÓMO FUNCIONA?</a></li>
+            </ul>
         </div>
-        <div id="menu">
-            <div class="menuizquierda">
-                <ul>
-                    <li class="encuentra"><a href="anunciosprofes2.html" style="text-decoration:none; color:black">ENCUENTRA TU CURSO</li>
-                    <li class="busca"><a href="anuncios2.html" style="text-decoration:none; color:black">AYUDA A UN CREATIVO</a></li>
-                </ul>
-            </div>
-            <div class="menuderecha">
-                <ul>
-                    <li class="cursos">Mi perfil</li>
-                </ul>
-            </div>
+        <div class="menuderecha">
+            <ul>
+                 <li class="login"><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
         </div>
-    </header>
+    </div>
+    </div>
+</header>
+<div id="modificarcurso" class="masc">
+    <div class="popupbox popupbox3 movedown movedown3">
+        <a href="#close" title="close" class="close">X</a>
+        <div class="contenidopublicar cf">
+            <div class="cajainstrucciones cajainstrucciones-cajainstrucciones2">
+                <h2 class="formulario">Modificar curso</h2>
+                 <div class="cajaformulario">
+                    <h5>
+                        Título
+                    </h5>
+                    <p class="categoriasmenu-2">
+                        Máximo 32 caracteres.
+                    </p>
+                    <form>
+                        <input type="text" placeholder="Aprende a usar la página maestra en Indesign" required="" class="estiloinputs">
+                    </form>
+                </div>
+                <div class="cajaformulario">
+                    <h5>
+                       Categoría
+                   </h5>
+                   <form>
+                    <select name="text" class="estiloinputs">
+                        <option value="Arquitectura">Arquitectura</option>
+                        <option value="Animación">Animación</option>
+                        <option value="Diseño Audiovisual">Audiovisual</option>
+                        <option value="Diseño Industrial">Industrial</option>
+                        <option value="Linux">Gráfico</option>
+                        <option value="Linux">Moda</option>
+                        <option value="Linux">Web</option>
+                        <option value="Linux">Fotografía</option>
+                        <option value="Linux">Programación</option>
+                    </select>
+                </form>
+            </div>
+             <div class="cajaformulario">
+                <h5>
+                    Descripción
+                </h5>
+                <form>
+                    <input type="text" placeholder="En sólo 1 hora te puedo enseñar a usar una de las herramientas más importantes de Indesign, la página maestra. 
+                    Te permitirá agilizar mucho tus proyectos de maquetación de revistas." required="" class="estiloinputs">
+                </form>
+            </div>
+            <div class="cajaformulario">
+                <h5>
+                    Método de clase
+                </h5>
+                <form>
+                    <p class="categoriasmenu"><input type="checkbox">Presencial</p>
+                    <p class="categoriasmenu"><input type="checkbox">Skype</p>
+                    <p class="categoriasmenu"><input type="checkbox">Email</p>
+                </form>
+            </div>
+        <div class="cajaformulario">
+            <h5>
+                Programa informático (opcional)
+            </h5>
+            <form>
+               <input type="text" placeholder="Ej:Photoshop" required="" class="estiloinputs">
+            </form>
+        </div>
+            <div class="cajaformulario">
+                <h5>
+                   Tags (opcional)
+               </h5>
+               <input type="text" placeholder="#photoshop, #retoquefotográfico, ..." required="" class="estiloinputs">
+           </div>
+           <div class="botonpopup">
+                <button class="publicaranuncios"><a href="perfil.html">MODIFICAR</a></button>
+            </div>
+            <p class="terminos">Al publicar tu curso estás aceptando los <a href="normaspublicar.html">términos y condiciones</a> de nuestra política de privacidad</p>
+    </div>
+    </div>
+</div>
+</div>
    <div id="publicar" class="masc">
     <div class="popupbox popupbox2 movedown movedown3">
         <a href="#close" title="close" class="close">X</a>
@@ -127,120 +199,121 @@
     </div>
     </div>
 </div>
-
-
-    <div class="parteizquierda">
+     <div class="parteizquierda">
         <div class="fotoperfil">
-            <img src="imagenes/fotopepe.jpg" width="110px">
-            <h2 class="subefoto">
+            <img class="imgperfil" src="imagenes/circuloperfil.svg">
+            <h6 class="modificar">
                 <a href="#">
-                    SUBE TU FOTO
+                    Sube tu foto
                 </a>
-            </h2>
-            <p class="tamanomaximo">
+            </h6>
+            <h6 class="tamanomaximo">
                 34 x 34 píxeles. Máximo 30MB
-            </p>
+            </h6>
         </div>
-        <div class="informacionpersona">
-            <h3 class="nombrepersona">
+        <div class="totalinformacionpersona">
+            <h6 class="modificar">
+               <a href="#">
+                <u>modificar</u>
+                </a>
+            </h6>
+            <h4>
                 MARTA PÉREZ
-            </h3>
-            <p class="infoperfil">
-                <strong>Professión:</strong> Estudiante
-                <strong>Categoría:</strong> Diseño Gráfico
-                <strong>Edad:</strong> 22 años
-            </p>
+            </h4>
+            <div class="infoperfil">
+                 <p class="infopersona"><strong>Correo:</strong> mperez@gmail.com</p>
+                <p class="infopersona"><strong>Status:</strong> Estudiante</p>
+                <p class="infopersona"><strong>Categoría:</strong> Diseñadora Gráfica</p>
+                <p class="infopersona"><strong>Edad:</strong> 22 años</p>
+            </div>
         </div>
-        <div class="contactame">
-            <a href="#publicar" style="text-decoration:none; color:white">PUBLICA TU CURSO</a>
+        <div class="botonesperfil">
+        <div class="boton">
+            <button class="publicaranuncios"><a href="#publicar">PUBLICA TU CURSO</a></button>
         </div>
         <p class="infoutil">
-            !Aquí podrás publicar la clase que necesitas!
+            ¡Aquí podrás publicar la clase que necesitas!
         </p>
-        <div class="ayudame">
-            <a href="#publicar" style="text-decoration:none; color:#f15c22">AYÚDAME</a>
+        <div class="boton">
+            <button class="publicaranuncios2"><a class="ayuda" href="#publicaralumno">PUBLICA TU DUDA</a></button>
+        </div>
         </div>
     </div>
     <div class="partederecha">
         <div class="menuinterior">
             <ul>
-                <li class="pestanyas"><a href="perfil_sobremi.html" style="text-decoration:none; color:#404041">Sobre Mi</a></li>
-                <li class="pestanyas"><a href="perfil.html" style="text-decoration:none; color:#404041">Portafolio</a></li>
-                <li class="pestanyas"><a href="perfil_cursos.html" style="text-decoration:none; color:#404041">Cursos</a></li>
-                <li class="pestanyas"><a href="perfil_dudas.html" style="text-decoration:none; color:#404041">Dudas</a></li>
+                <li class="pestanyas"><a href="perfil_sobremi.html">Sobre Mi</a></li>
+                <li class="pestanyas"><a href="perfil.html">Portafolio</a></li>
+                <li class="pestanyas"><a href="perfil_cursos.html">Cursos</a></li>
+                <li class="pestanyas"><a href="perfil_dudas.html">Dudas</a></li>
+                <li class="pestanyas"><a href="perfil_valor.html">Valoraciones</a></li>
             </ul>
         </div>
-        <div>
-            <h3 class="tituloporta">
+         <article class="contenidoperfil">
+            <div class="cursos">
+                <img class="iconosperfil" src="imagenes/iconoperfil.svg">
+            <div class="contenido">
+            <div class="tituloperfil">
+            <h5>
                 Cursos
-            </h3>
-            <p class="descripcionporta">
+            </h5>
+            </div>
+            <h6 class="tamanomaximo">
                 Borra los anuncios que están desactualizados, así evitarás recibir mensajes no deseados.
-            </p>
-            <p class="modificar">
-                modificar
-            </p>
-        </div>
-
-        <div class="cursoshorizontal">
-            <div class="anuncioizquierdo">
-                <p class="texto_curso">
-                    Te puedo enseñar a animar tus propios personajes. Trabajaremos con Unity y estoy a disposición para resolver las dudas que tengas.
-                </p>
-                <h2 class="caracteristicas_curso"><span class="otroestilo">Método:</span> Skype y Mail</h2>
-                <h2 class="caracteristicas_curso"><span class="otroestilo">Disponibilidad:</span> Mañanas y tardes</h2>
-                <h2 class="caracteristicas_curso"><span class="otroestilo">Idioma:</span> Español / Catalán</h2>
-                <div class="espacio_titulo">
-                    <p class="titulo_curso">
-                        Animar videojuegos en Unity
-                    </p>
+            </h6>
+            <h6 class="modificar">
+                <a href="#modificarcurso">
+                <u>modificar</u>
+                </a>
+            </h6>
+            <div class="nocursossuadrado">
+            <div class="contenidonocursos">
+                <div class="personaje">
+                <img src="imagenes/personajepepe.png">
                 </div>
+                <h3 class="texto-curso">
+                    ¡No has publicado ningún curso aún!
+                </h3>
+                <h5 class="subnocursos">Enseña tus trabajos y demuestra lo mucho que sabes.</h5>
+                <div class="boton3">
+                    <button class="publicaranuncios"><a href="#publicar">PUBLICA TU CURSO</a></button>
+                </div>  
             </div>
-            <div class="anuncioderecho">
-                <p class="texto_curso">
-                    Te puedo enseñar a animar tus propios personajes. Trabajaremos con Unity y estoy a disposición para resolver las dudas que tengas.
-                </p>
-                <h2 class="caracteristicas_curso"><span class="otroestilo">Método:</span> Skype y Mail</h2>
-                <h2 class="caracteristicas_curso"><span class="otroestilo">Disponibilidad:</span> Mañanas y tardes</h2>
-                <h2 class="caracteristicas_curso"><span class="otroestilo">Idioma:</span> Español / Catalán</h2>
-                <div class="espacio_titulo">
-                    <p class="titulo_curso">
-                        Animar videojuegos en Unity
-                    </p>
-                </div>
             </div>
         </div>
     </div>
-    <div id="container">
+    </article>
+</div>
+
+  <article class="article3">
+        <div class="pie">
+        <section class="miniboxpie"><span>Contacto</span>
+            <p class="textoarticle3">holapuntoyseguido@gmail.com</p>
+            <p class="textoarticle3">(+34)722 563 505</p>
+        </section>
+        <section class="miniboxpie">
+            <div id="iconos">
+            <div class="twitter"><a target="blank" href="https://twitter.com/puntoyseguidoo"><img class="iconopie" src="imagenes/twitter.svg" alt="twitter"></a></div>
+            <div class="facebook"><a target="blank" href="https://www.facebook.com/puntoyseguidoo"><img class="iconopie" src="imagenes/facebook.svg" alt="facebook"></a></div>
+             <div class="instagram"><a target="blank" href="https://www.instagram.com/puntoyseguidoo"><img class="iconopie" src="imagenes/instagram.svg" alt="instagram"></a></div>
+            </div>
+        </section>
+        <section class="miniboxpie"><span>Newsletter</span>
+            <div class="newsletter cf">
+            <div class="caja">
+                <input type="text" size="35" maxlength="70" placeholder="ejemplo@gmail.com" name="ejemplo"></div>
+            <div class="botonunete"><a href="graciasnews.html">Únete</a>
+             <p class="derechos">Haciendo click aquí aceptas nuestras <a href="normasnews.html" target="_blank">bases y condiciones</a></p>
+             </div>
+            </div>
+        </section>
     </div>
-            <article class="article3">
-                <div class="pie">
-                    <section class="miniboxpie"><span>Contacto</span>
-                        <p class="textoarticle3">holapuntoyseguido@gmail.com</p>
-                        <p class="textoarticle3">(+34)722 563 505</p>
-                    </section>
-                    <section class="miniboxpie">
-                        <div id="iconos">
-                            <div class="twitter"><a target="blank" href="https://twitter.com/puntoyseguidoo" style="text-decoration:none"><img src="imagenes/twitter.svg" alt="twitter" style="width:40"></a></div>
-                            <div class="facebook"><a target="blank" href="https://www.facebook.com/puntoyseguidoo" style="text-decoration:none"><img src="imagenes/facebook.svg" alt="facebook" style="width:40"></a></div>
-                        </div>
-                    </section>
-                    <section class="miniboxpie"><span>Newsletter</span>
-                        <div class="newsletter">
-                            <div class="caja">
-                                <input type="text" size="35" maxlength="70" value="ejemplo@gmail.com" name="ejemplo"></div>
-                                <div class="botonunete"><a href="graciasnews.html" style="text-decoration:none; color:black">Únete</a>
-                                </div>
-                                <p class="derechos">Haciendo click aquí aceptas nuestras <a href="normasnews.html" target="_blank">bases y condiciones</a></p>
-                            </div>
-                        </section>
-                    </div>
-                    <footer>
-                        <p class="textopie" style="margin:0px">©2014 puntoyseguido.All rights reserved.</p>
-                    </footer>
+        <footer>
+        <p class="textopie">©2015 puntoyseguido.All rights reserved.</p>
+    </footer>
 
-                </article>
+    </article>
 
 
-            </body>
-            </html>
+</body>
+</html>
